@@ -1,0 +1,81 @@
+/* Import Tailwind CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css');
+
+/* Import Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Custom Logo Styles */
+.custom-logo {
+  width: 100px !important; /* Adjust the width as needed */
+  height: auto !important; /* Maintain aspect ratio */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #0D0930; /* Updated to match header background color */
+  color: white;
+  padding: 50px 0;
+}
+
+.footer .logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.footer .slogan {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #61dafb;
+}
+
+.footer-bottom {
+  background: #021438;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.move-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #61dafb;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.move-to-top:hover {
+  color: #5c6bc0;
+}
+
+@media (max-width: 768px) {
+  .footer .customLandingContainer {
+    padding: 0 20px;
+  }
+
+  .footer .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .col-md-2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer .social-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+}

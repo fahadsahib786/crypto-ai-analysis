@@ -1,0 +1,19 @@
+.analysis-result {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .analysis-section {
+    margin-bottom: 20px;
+  }
+  
+  .analysis-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .analysis-charts {
+    margin-top: 20px;
+  }
+  

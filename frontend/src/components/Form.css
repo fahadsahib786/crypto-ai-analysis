@@ -1,0 +1,335 @@
+
+body {
+  background-color: white;
+  background-size: cover; 
+ 
+}
+
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.form-section h1 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.form-section h2 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.form-section b1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  font-weight:bolder;
+}
+
+.form-section b2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+
+}
+
+input[type="text"], input[type="url"], input[type="email"], textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+
+.form-navigation button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 0 20px;
+}
+
+.form-navigation button:hover {
+  background: linear-gradient(135deg, #4b0d91, #1e5dca);
+}
+
+/* Additional Styling */
+.form-navigation button:disabled {
+  background: linear-gradient(135deg, #ccc, #ddd);
+  cursor: not-allowed;
+}
+
+input[type="text"]:focus, input[type="url"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: #6a11cb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+.form-container {
+  max-width: 800px; /* Default max-width for larger screens */
+  margin: 50px auto;
+  padding: 80px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2B0D43, #0A092E);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: center;
+}
+
+.checkbox-container {
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  margin-bottom: 10px;
+  font-size: 1.5rem; 
+}
+
+.checkbox-input {
+  margin-right: 20px;
+  width: 20px; 
+  height: 20px; 
+}
+
+.community-engagement-table {
+  margin-top: 20px;
+}
+
+.community-engagement-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+.community-engagement-table th,
+.community-engagement-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.community-engagement-table th {
+  
+  font-weight: bold;
+}
+
+.community-engagement-table td input[type="radio"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.community-engagement-table td input[type="radio"]:checked {
+  background-color: #007bff;
+}
+
+.community-engagement-table td input[type="radio"]:checked::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  
+  vertical-align: middle;
+}
+
+.community-engagement-table td input[type="radio"]:checked::after {
+  
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 14px;
+}
+
+.economic-sustainability-scale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sustainability-checkbox {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.checkbox-custom {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff; 
+  border: 1px solid #333; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.sustainability-checkbox input[type="checkbox"] {
+  display: none; 
+}
+
+.sustainability-checkbox input[type="checkbox"]:checked + .checkbox-custom {
+  background-color: #333; 
+}
+
+.checkbox-label {
+  color: #fff; 
+  font-size: 16px; 
+}
+
+.economic-sustainability-scale {
+  margin-bottom: 20px;
+}
+
+.extra-space {
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+
+/* Styles for Phones */
+@media (max-width: 480px) {
+  .form-container {
+    padding: 10px;
+  }
+
+  .form-section h1 {
+    font-size: 20px;
+  }
+
+  .form-section h2 {
+    font-size: 14px;
+  }
+
+  .form-section b1, .form-section b2 {
+    font-size: 12px;
+  }
+
+  input[type="text"], input[type="url"], input[type="email"], textarea {
+    font-size: 8px;
+    padding: 4px;
+  }
+
+  .form-navigation button {
+    padding: 4px 10px;
+    font-size: 8px;
+  }
+
+  .checkbox-label {
+    font-size: 8px;
+  }
+
+  .community-engagement-table table {
+    font-size: 8px;
+  }
+
+  .community-engagement-table th, .community-engagement-table td {
+    padding: 2px;
+  }
+
+  .community-engagement-table td input[type="radio"] {
+    width: 6px;
+    height: 6px;
+  }
+
+  .sustainability-checkbox {
+    margin-right: 2px;
+  }
+
+  .checkbox-custom {
+    width: 8px;
+    height: 8px;
+  }
+
+  .economic-sustainability-scale {
+    font-size: 8px;
+  }
+
+  .economic-sustainability-scale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 8px;
+  }
+
+  .checkbox-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sustainability-checkbox {
+    display: flex;
+    align-items: center;
+    margin-right: 2px; 
+  }
+
+  .checkbox-label {
+    font-size: 8px; 
+  }
+
+  .checkbox-input {
+    margin-right: 2px; 
+    width: 8px;
+    height: 8px; 
+  }
+
+  .checkbox-custom {
+    display: inline-block;
+    width: 8px; 
+    height: 8px;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-right: 2px; 
+  }
+}

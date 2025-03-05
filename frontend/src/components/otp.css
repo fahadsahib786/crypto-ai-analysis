@@ -1,0 +1,11 @@
+.eachInputField{
+    width: 70px !important;
+    margin: 10px;
+    height: 60px;
+    font-size: 20px !important ;
+
+}
+
+.inputContainer{
+    justify-content: center;
+}

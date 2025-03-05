@@ -1,0 +1,46 @@
+@keyframes fadeToBlackGreen {
+    0% { 
+        color: green;
+      }
+     
+      70%{
+        color: green;
+      }
+      100% { 
+        color: black;
+      }
+  }
+  
+  @keyframes fadeToBlackRed {
+    0% {
+        color: red;
+      }
+     
+      70%{
+        color: red;
+      }
+      100% { 
+        color: black;
+      }
+  }
+  
+  .fade-green {
+    animation: fadeToBlackGreen 8s forwards;
+  }
+  
+  .fade-red {
+    animation: fadeToBlackRed 8s forwards;
+  }
+  
+  .data-cell{
+    display: flex;
+    align-items: center;
+  }
+
+  .green{
+    color: green;
+  }
+
+  .red{
+    color: red;
+  }

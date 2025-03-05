@@ -1,0 +1,10 @@
+OPENAI_API_KEY=''
+SENDER_EMAIL_ADDRESS = "" #your brevo email address
+EMAIL_SERVICE_USER=''   #your brevo smtp login
+EMAIL_SERVICE_PASS='' #your brevo smtp key
+MONGODB_URI=''
+JWT_SECRET=''
+MOBULA_API_KEY=''
+LIVECOINWATCH_API_KEY=''
+FILE_PATH=""
+BREVO_API_KEY=''

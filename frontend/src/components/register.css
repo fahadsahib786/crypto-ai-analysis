@@ -1,0 +1,75 @@
+/* frontend/src/styles/register.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover; /* Ensure the background image covers the entire body */
+  background-position: center; /* Center the background image */
+  /* background-color: #f4f4f4; */ /* You can either use a background color or an image */
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  background-color: var(--indigo);
+  color: var(--navy-blue);
+  padding: 20px;
+  border-radius: 0%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background: #fff;
+  padding: 30px !important;
+  /* padding-bottom: 80px !important; */
+  margin: 100px auto !important; /* Center the form vertically with margin from top */
+  max-width: 400px; /* Limit the maximum width */
+  box-shadow: 0 0 10px #4b0082; 
+  border-radius: 8px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b0082; /* Indigo */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form button {
+  background: #8a2be2; /* Violet */
+  color: #fff;
+  border: 0;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+  margin-top: 20px; /* Add margin to separate from input fields */
+}
+
+form button:hover {
+  background: #9b30ff; /* Lighter Violet */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  outline: none;
+  border-color: #8a2be2; /* Violet */
+}
+
+label {
+  font-weight: bold;
+}

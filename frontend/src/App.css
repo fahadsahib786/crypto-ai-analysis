@@ -1,0 +1,13 @@
+.customContainer {
+    width: 100%;
+    text-align: center;
+}
+
+
+:root {
+    --bs-border-radius: 3rem; /* Default border radius */
+}
+
+.rounded-lg {
+    border-radius: var(--bs-border-radius) !important;
+}

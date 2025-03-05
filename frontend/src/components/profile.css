@@ -1,0 +1,61 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.outline {
+  outline: 2px solid red;
+}
+
+.white-outline {
+  outline: 2px solid white
+}
+
+.div-inner {
+  max-width: 1000px;
+}
+
+.block-outer {
+  display: flex;
+  flex-direction: column;
+  max-width:800px;
+  background-color: #0d0930;
+}
+
+.block-inner > li {
+  background-color: #0d0930;
+  border-radius: 20px!important;
+}
+
+.list-group-item.custom-outline {
+  border: 1px solid #0d0930;;
+}
+
+.list-group-custom {
+  margin-top: 1.5rem;
+}
+
+.list-group-item.custom-bg {
+  background-color: #fff;
+}
+
+.main-background {
+  background-color: #0d0930;
+}
+
+.btn-delete {
+  background-color: #8b0000 !important;
+  color: #fff !important;
+  outline-color: #0d0930 !important;
+}
+.btn-delete:hover {
+  background-color: #7d0000 !important;
+  color: #fff !important;
+}
+
+.btn-edit {
+  background-color: #c6c6c6 !important;
+  color: #0d0930 !important;
+}
+.btn-edit:hover {
+  background-color: #a8a8a8 !important;
+  color: #0d0930 !important;
+}

@@ -1,0 +1,30 @@
+.div-inner {
+	max-width:750px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+@media (max-width: 768px){
+	.form-buttons {
+		flex-direction: column;
+	}
+}
+
+.outer-block {
+	background: #0d0930;
+}
+
+.outline {
+	outline: 2px solid red
+}

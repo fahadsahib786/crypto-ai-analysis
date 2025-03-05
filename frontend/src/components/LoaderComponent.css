@@ -1,0 +1,16 @@
+/* Loader.css */
+.loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Optional: to hide the underlying content */
+    z-index: 9999; /* Ensure it's on top */
+  }
+  
+  .loader video {
+    width: 75px; /* Adjust size as needed */
+    height: 75px; /* Adjust size as needed */
+  }
+  

@@ -1,0 +1,119 @@
+.index-fund-container {
+  padding: 20px;
+  max-width: 700px; /* Increased max-width for better layout on larger screens */
+  margin: 0 auto;
+  background-color: #ffffff; /* Changed to white for a cleaner look */
+  border-radius: 12px; /* Slightly larger border radius for a modern feel */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer, more prominent shadow */
+}
+
+.index-fund-container h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2d3748; /* Darker text color for better contrast */
+  text-align: center;
+  margin-bottom: 30px; /* More space below the header */
+}
+
+.index-fund-container .investment-input {
+  margin-bottom: 24px; /* Slightly more spacing */
+}
+
+.index-fund-container .investment-input input {
+  padding: 12px 16px; /* Larger padding for a more substantial feel */
+  width: 100%; /* Full width for better usability */
+  border-radius: 8px; /* Larger border radius */
+  border: 2px solid #e2e8f0; /* Softer border color */
+  background-color: #f7fafc; /* Light gray background */
+  font-size: 16px; /* Slightly larger font size */
+  color: #2d3748; /* Dark text for better readability */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.index-fund-container .investment-input input:focus {
+  border-color: #3182ce; /* Blue border on focus */
+  box-shadow: 0 0 0 4px rgba(49, 130, 206, 0.1); /* Soft blue shadow */
+  outline: none;
+}
+
+.index-fund-container .crypto-list {
+  margin-bottom: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.index-fund-container .crypto-item {
+  display: flex;
+  flex-direction: column; /* Default column layout */
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to start */
+  padding: 16px;
+  margin-bottom: 12px;
+  background-color: #edf2f7;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .index-fund-container .crypto-item {
+    flex-direction: row; /* Row layout on small screens and up */
+    align-items: center;
+  }
+}
+
+.index-fund-container .crypto-item:hover {
+  background-color: #e2e8f0; /* Slightly darker on hover */
+}
+
+.index-fund-container .crypto-item h4 {
+  font-size: 18px;
+  color: #2d3748;
+  margin-bottom: 4px;
+}
+
+.index-fund-container .crypto-item p {
+  font-size: 14px;
+  color: #4a5568;
+  margin-bottom: 0;
+}
+
+.index-fund-container .crypto-item .btn {
+  background-color: #e53e3e; /* Red background for remove button */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+@media (min-width: 640px) {
+  .index-fund-container .crypto-item .btn {
+    margin-top: 0; /* Remove top margin on small screens and up */
+  }
+}
+
+.index-fund-container .btn-primary {
+  width: 100%;
+  background-color: #2b6cb0;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.index-fund-container .btn-primary:hover {
+  background-color: #2c5282;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adding shadow on hover */
+}
+
+.index-fund-container p {
+  font-size: 16px;
+  color: #2d3748;
+  text-align: center;
+  margin-top: 20px;
+}

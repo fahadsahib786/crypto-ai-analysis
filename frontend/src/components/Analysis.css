@@ -1,0 +1,28 @@
+/* frontend/src/styles/analysis.css */
+
+.analysis-container {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .analysis-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .analysis-details {
+    margin-bottom: 20px;
+  }
+  
+  .analysis-details label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .analysis-details p {
+    margin-bottom: 10px;
+  }
+  
